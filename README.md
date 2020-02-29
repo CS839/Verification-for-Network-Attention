@@ -26,8 +26,12 @@ only focus on the "main" component to complete the classification task.
 We have the ground truth bounding box for the objects to be classified. By 
 aligning the true box and attention mask, we could measure how close they are.
 
-Week of X
-On a scale of 1-10, how do we rate our progress over the past week?
-What did we accomplish from last week's tasks?
-What problems or concerns do we have?
-What do we plan to accomplish do over the next week?
+## Week of 1
+### On a scale of 1-10, how do we rate our progress over the past week?
+We have to firstly set up a valid task to attack. This task has to expose the existing neural net's disadvantage, which is the misplacement of attention even given the correct prediction. To show the attention, we could use a common visualization tool called CAM("Learning Deep Features for Discriminative Localization").  
+### What did we accomplish from last week's tasks?
+We set up a dataset called "1234" task. The first group of images contains number 4 and other random number in {1,2,3} while another group does not contain "4". 
+### What problems or concerns do we have?
+How to set up a "fair" training dataset so that the neural network will not be biased by other information should be carefully considered. 
+### What do we plan to accomplish do over the next week?
+We plan to set up a traditional neural network to train based on such task and visualize its attention to see if such phenomenone exists.
