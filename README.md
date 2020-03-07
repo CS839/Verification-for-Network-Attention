@@ -46,8 +46,7 @@ We plan to set up a traditional neural network to train based on such task and v
 3. We implement the CAM method to see the attention of the traditional neural network.
 
 Demo for CAM on the resnet18 network.
-
-[![](https://github.com/CS839/Verification-for-Network-Attention/images/1.jpg)](demo for cam "markdown")
+[![](https://github.com/CS839/Verification-for-Network-Attention/blob/master/images/1.jpg)](https://github.com/CS839/Verification-for-Network-Attention/blob/master/images/1.jpg "demo")
 ### What problems or concerns do we have?
 We find the network's attention is wandering everywhere which is totally different with what human-being's attention.
 ### What do we plan to accomplish do over the next week?
