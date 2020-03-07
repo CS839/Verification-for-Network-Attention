@@ -35,3 +35,22 @@ We set up a dataset called "1234" task. The first group of images contains numbe
 How to set up a "fair" training dataset so that the neural network will not be biased by other information should be carefully considered. 
 ### What do we plan to accomplish do over the next week?
 We plan to set up a traditional neural network to train based on such task and visualize its attention to see if such phenomenone exists.
+
+
+## Week of 2
+### On a scale of 1-10, how do we rate our progress over the past week?
+9.5
+### What did we accomplish from last week's tasks?
+1. We finished the coding for constructing a dataset described in week 1 report. 
+2. We set up a resnet18 model to finish the binary classification task.
+3. We implement the CAM method to see the attention of the traditional neural network.
+
+Demo for CAM on the resnet18 network.
+
+[![](https://github.com/CS839/Verification-for-Network-Attention/images/1.jpg)](demo for cam "markdown")
+### What problems or concerns do we have?
+We find the network's attention is wandering everywhere which is totally different with what human-being's attention.
+### What do we plan to accomplish do over the next week?
+We plan to set up a new mechanism to let neural net be "focus" on the correct attention. 
+
+
