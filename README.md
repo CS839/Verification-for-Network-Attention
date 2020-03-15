@@ -53,3 +53,14 @@ We find the network's attention is wandering everywhere which is totally differe
 We plan to set up a new mechanism to let neural net be "focus" on the correct attention. 
 
 
+
+## Week of 3
+### On a scale of 1-10, how do we rate our progress over the past week?
+8.5
+### What did we accomplish from last week's tasks?
+We proposed a training strategy that is similar to [Balanced Datasets Are Not Enough: Estimating and Mitigating Gender Bias in Deep Image Representations](https://arxiv.org/abs/1811.08489). We set up an "attacker" network that tries to cover the most "important" part of image to fool the "discriminator" network. In this way, we hope that "attacker" network could learn the correct attention of image.
+### What problems or concerns do we have?
+The adversarial structure could be extremely hard to train. The result is unstable.
+### What do we plan to accomplish do over the next week?
+Trying to adjust the structure and hyper-parameters to see if any positive change happens. 
+
