@@ -64,3 +64,19 @@ The adversarial structure could be extremely hard to train. The result is unstab
 ### What do we plan to accomplish do over the next week?
 Trying to adjust the structure and hyper-parameters to see if any positive change happens. 
 
+
+
+## Week of 4
+### On a scale of 1-10, how do we rate our progress over the past week?
+7.5
+### What did we accomplish from last week's tasks?
+We finish the training of adversarial architecuture. The strategy is mentioned in the previous week's report. We have the initial result here: 
+[![](https://github.com/CS839/Verification-for-Network-Attention/blob/master/images/2.png)](https://github.com/CS839/Verification-for-Network-Attention/blob/master/images/2.png "demo2")
+
+We see that the "attacker" successfully capture the key information in the image. 
+### What problems or concerns do we have?
+As mentioned in the previous report, such structure is hard to train. So we seek out to propose an alternative structure that could directly capture the key region's information. 
+### What do we plan to accomplish do over the next week?
+Propose alternative structure to replace the "adversarial" strategy
+
+
