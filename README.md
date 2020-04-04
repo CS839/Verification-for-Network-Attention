@@ -80,3 +80,14 @@ As mentioned in the previous report, such structure is hard to train. So we seek
 Propose alternative structure to replace the "adversarial" strategy
 
 
+
+## Week of 5
+### On a scale of 1-10, how do we rate our progress over the past week?
+7
+### What did we accomplish from last week's tasks?
+We propose to come up an alternative structure that could directly capture the key region information. We add an additional attention mechanism on the final feature map in Resnet18. At the same time, we restrict the size of attention by extra L1 loss.
+### What problems or concerns do we have?
+Still tuning the hyperparameter..
+### What do we plan to accomplish do over the next week?
+We want to set up the proposed mechanism to see if it works as we expected.
+
