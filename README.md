@@ -91,3 +91,14 @@ Still tuning the hyperparameter..
 ### What do we plan to accomplish do over the next week?
 We want to set up the proposed mechanism to see if it works as we expected.
 
+
+
+## Week of 5
+### On a scale of 1-10, how do we rate our progress over the past week?
+7.5
+### What did we accomplish from last week's tasks?
+We successfully bound the region of network's attention to localize on the correct region without using the heavy adversarial architecture. Instead, we can just easily use an extra attention layer and restrict it with L1 loss. 
+
+### What do we plan to accomplish do over the next week?
+We plan to set up the model and test on more general dataset.
+
