@@ -93,7 +93,7 @@ We want to set up the proposed mechanism to see if it works as we expected.
 
 
 
-## Week of 5
+## Week of 6
 ### On a scale of 1-10, how do we rate our progress over the past week?
 7.5
 ### What did we accomplish from last week's tasks?
