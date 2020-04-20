@@ -102,3 +102,12 @@ We successfully bound the region of network's attention to localize on the corre
 ### What do we plan to accomplish do over the next week?
 We plan to set up the model and test on more general dataset.
 
+
+## Week of 7
+### On a scale of 1-10, how do we rate our progress over the past week?
+8
+### What did we accomplish from last week's tasks?
+We successfully use an attention scheme to localize the key object in classification. (Details will be included in the final report and presentation). To verify our model, we use [BAM](https://arxiv.org/abs/1907.09701) as the bechmark dataset. Some promising results are fetched. 
+
+### What do we plan to accomplish do over the next week?
+We plan to finish the slides and report at next week. 
